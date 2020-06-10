@@ -1,0 +1,21 @@
+package com.ouver.o2o.dao;
+
+import com.ouver.o2o.BaseTest;
+import com.ouver.o2o.domain.HeadLine;
+import org.junit.Assert;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
+
+public class HeadLineTest extends BaseTest {
+
+    @Autowired
+    private HeadLineDao headLineDao;
+
+    @Test
+    public void testQueryHeadLine(){
+        List<HeadLine> headLines = headLineDao.queryHeadLineList(new HeadLine());
+        Assert.assertEquals(4,headLines.size());
+    }
+}

@@ -1,0 +1,8 @@
+2020-02-25 10:57:09.442 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2020-02-25 10:57:09.449 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [redis.properties]
+2020-02-25 11:01:18.917 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2020-02-25 11:01:18.919 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [redis.properties]
+2020-02-25 11:01:38.354 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2020-02-25 11:01:38.356 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [redis.properties]
+2020-02-25 11:02:04.933 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2020-02-25 11:02:04.934 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [redis.properties]

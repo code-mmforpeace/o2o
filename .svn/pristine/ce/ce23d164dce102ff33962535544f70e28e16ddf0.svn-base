@@ -1,0 +1,82 @@
+package com.ouver.o2o.service.impl;
+
+import com.ouver.o2o.dao.AwardDao;
+import com.ouver.o2o.domain.Award;
+import com.ouver.o2o.dto.AwardExecution;
+import com.ouver.o2o.enums.AwardStateEnum;
+import com.ouver.o2o.exceptions.AwardOperationException;
+import com.ouver.o2o.service.AwardService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+
+@Service
+public class AwardServiceImpl implements AwardService {
+
+    @Autowired
+    private AwardDao awardDao;
+
+    @Override
+    public List<Award> queryAwardList(Award awardCondition, int rowIndex, int pageSize) {
+        return awardDao.queryAwardList(awardCondition,rowIndex,pageSize);
+    }
+
+    @Override
+    public int queryAwardCount(Award awardCondition) {
+        return awardDao.queryAwardCount(awardCondition);
+    }
+
+    @Override
+    public Award queryAwardByAwardId(long awardId) {
+        return awardDao.queryAwardByAwardId(awardId);
+    }
+
+    @Override
+    @Transactional
+    public AwardExecution insertAward(Award award) throws AwardOperationException {
+        if(award != null){
+            try{
+            int i = awardDao.insertAward(award);
+            if( i <= 0){
+                throw new AwardOperationException("奖品创建失败！");
+            }else {
+                return new AwardExecution(AwardStateEnum.SUCCESS);
+            }
+            }catch (Exception e){
+                throw new AwardOperationException(e.getMessage());
+            }
+        }else {
+            return new AwardExecution(AwardStateEnum.NULL_Award_INFO);
+        }
+    }
+
+    @Override
+    public AwardExecution updateAward(Award award) throws AwardOperationException {
+        try{
+            int i = awardDao.updateAward(award);
+            if(i <= 0){
+                throw new AwardOperationException("奖品更新失败！");
+            }else {
+                return new AwardExecution(AwardStateEnum.SUCCESS);
+            }
+        }catch (Exception e){
+            throw new AwardOperationException("奖品更新失败！");
+        }
+    }
+
+    @Override
+    public AwardExecution deleteAward(long awardId,long shopId) throws AwardOperationException{
+        try {
+            int i = awardDao.deleteAward(awardId,shopId);
+            if(i <= 0){
+                throw new AwardOperationException("删除失败");
+            }else {
+                return new AwardExecution(AwardStateEnum.SUCCESS);
+            }
+        }catch (Exception e){
+            throw new AwardOperationException("删除失败"+e.getMessage());
+        }
+    }
+}

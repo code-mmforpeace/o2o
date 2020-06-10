@@ -1,0 +1,14 @@
+2020-04-15 10:16:58.614 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+2020-04-15 10:16:58.617 [main] DEBUG c.o.o2o.utils.EncryptPropertyPlaceholderConfigurer - Loading properties file from class path resource [redis.properties]
+2020-04-15 10:17:08.693 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current relativeAddr is :\upload\item\shop31\2020041510170825336.jpg
+2020-04-15 10:17:08.693 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current complete addr is: E:\projectLib\upload\item\shop31\2020041510170825336.jpg
+2020-04-15 10:17:08.871 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current relativeAddr is :\upload\item\shop31\2020041510170867743.jpg
+2020-04-15 10:17:08.872 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current complete addr is: E:\projectLib\upload\item\shop31\2020041510170867743.jpg
+2020-04-15 10:17:08.873 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current relativeAddr is :\upload\item\shop31\2020041510170866508.jpg
+2020-04-15 10:17:08.873 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current complete addr is: E:\projectLib\upload\item\shop31\2020041510170866508.jpg
+2020-04-15 10:17:09.260 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current relativeAddr is :\upload\item\shop19\2020041510170956590.jpg
+2020-04-15 10:17:09.260 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current complete addr is: E:\projectLib\upload\item\shop19\2020041510170956590.jpg
+2020-04-15 10:17:09.421 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current relativeAddr is :\upload\item\shop19\2020041510170922613.jpg
+2020-04-15 10:17:09.421 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current complete addr is: E:\projectLib\upload\item\shop19\2020041510170922613.jpg
+2020-04-15 10:17:09.423 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current relativeAddr is :\upload\item\shop19\2020041510170967866.jpg
+2020-04-15 10:17:09.423 [main] DEBUG com.ouver.o2o.utils.ImageUtil - current complete addr is: E:\projectLib\upload\item\shop19\2020041510170967866.jpg

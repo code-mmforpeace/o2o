@@ -1,0 +1,28 @@
+package com.ouver.o2o.dao;
+
+import com.ouver.o2o.BaseTest;
+import com.ouver.o2o.domain.PersonInfo;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
+
+public class PersonInfoDaoTest extends BaseTest {
+
+    @Autowired
+    private PersonInfoDao personInfoDao;
+
+    @Test
+    @Ignore
+    public void testQueryPersonInfo(){
+        List<PersonInfo> personInfos = personInfoDao.queryPersonInfoList(new PersonInfo(), 0, 7);
+        System.out.println(personInfos.size());
+    }
+
+    @Test
+    public void testQueryPersonInfoById(){
+        PersonInfo personInfo = personInfoDao.queryPersonInfoById(1);
+        System.out.println(personInfo);
+    }
+}

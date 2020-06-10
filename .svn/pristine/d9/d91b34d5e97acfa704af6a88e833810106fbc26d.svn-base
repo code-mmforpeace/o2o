@@ -1,0 +1,35 @@
+package com.ouver.o2o.dao;
+
+import com.ouver.o2o.domain.UserAwardMap;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+
+public interface UserAwardMapDao {
+    /**
+     * 根据传入的条件分页查询用户兑换奖品记录的列表信息
+     */
+    List<UserAwardMap> queryUserAwardMap(@Param("userAwardCondition")UserAwardMap userAwardCondition,@Param("pageSize")int pageSize,@Param("rowIndex")int rowIndex);
+
+    /**
+     * 返回查询的总数
+     */
+    int queryUserAwardMapCount(@Param("userAwardCondition")UserAwardMap userAwardCondition);
+
+    /**
+     * 根据userAwardId返回某条奖品兑换信息
+     */
+    UserAwardMap queryUserAwardMapById(long userId);
+
+    /**
+     * 添加
+     */
+    int insertUserAwardMap(UserAwardMap userAwardMap);
+
+    /**
+     *更新
+     * @param userAwardMap
+     * @return
+     */
+    int updateUserAwardMap(UserAwardMap userAwardMap);
+}

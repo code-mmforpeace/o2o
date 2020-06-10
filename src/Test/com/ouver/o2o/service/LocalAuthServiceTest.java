@@ -1,0 +1,36 @@
+package com.ouver.o2o.service;
+
+import com.ouver.o2o.BaseTest;
+import com.ouver.o2o.domain.LocalAuth;
+import com.ouver.o2o.dto.LocalAuthExecution;
+import com.ouver.o2o.utils.MD5Util;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.Date;
+
+public class LocalAuthServiceTest extends BaseTest {
+
+    @Autowired
+    private LocalAuthService localAuthService;
+
+    @Test
+    @Ignore
+    public void testInsertLocalAuth(){
+        LocalAuth localAuth = new LocalAuth();
+        localAuth.setUserId(3L);
+        localAuth.setUserName("testAdd");
+        localAuth.setPassword(MD5Util.getMd5("hello"));
+        localAuth.setCreateTime(new Date());
+        localAuth.setLastEditTime(new Date());
+        LocalAuthExecution localAuthExecution = localAuthService.bindLocalAuth(localAuth);
+        System.out.println(localAuthExecution.getStateInfo());
+    }
+
+    @Test
+    public void testQueryLocalAuth(){
+        LocalAuth root = localAuthService.getLocalAuthByUserNameAndPwd("root", "root");
+        System.out.println(root.getPersonInfo().getUserId());
+    }
+}

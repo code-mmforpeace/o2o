@@ -1,0 +1,7 @@
+package com.ouver.o2o.service;
+
+import com.ouver.o2o.BaseTest;
+
+public class HeadLineServiceTest extends BaseTest {
+
+}

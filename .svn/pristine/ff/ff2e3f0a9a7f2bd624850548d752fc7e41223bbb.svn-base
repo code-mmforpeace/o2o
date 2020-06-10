@@ -1,0 +1,41 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+    <!-- redis连接池的设置 -->
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <!-- 控制一个连接池中能有多少的jedis实例 -->
+        <property name="maxTotal" value="${redis.pool.maxActiveNum}"></property>
+        <!-- 设置连接池中最多存在20个空闲连接，即没有数据库连接时依然存在20个 -->
+        <property name="maxIdle" value="${redis.pool.maxIdleNum}"></property>
+        <!-- 最大等待时间：当没有可用连接的时候，连接池等待连接被归还的最大时间（毫秒），超出则抛出异常-->
+        <property name="maxWaitMillis" value="${redis.pool.maxWaitTime}"></property>
+        <!-- 在获取连接时检查有效性 -->
+        <property name="testOnBorrow" value="${redis.pool.testOn}"></property>
+    </bean>
+
+    <!-- 创建redis连接池，注入连接池命令 -->
+    <bean id="redisPoolCreate" class="com.ouver.o2o.redis.RedisPoolCreate" depends-on="jedisPoolConfig">
+        <constructor-arg index="0" ref="jedisPoolConfig"></constructor-arg>
+        <constructor-arg index="1" value="${redis.hostname}"></constructor-arg>
+        <constructor-arg index="2" value="${redis.port}"></constructor-arg>
+    </bean>
+
+    <!-- 创建redis工具类，用于封装redis的连接进行响应的操作 -->
+    <bean id="redisUtils" class="com.ouver.o2o.redis.RedisUtils" scope="singleton">
+        <property name="redisPool" >
+            <ref bean="redisPoolCreate"></ref>
+        </property>
+    </bean>
+
+    <!-- redis的key操作 -->
+    <bean id="redisKey" class="com.ouver.o2o.redis.RedisUtils$Keys" scope="singleton">
+        <constructor-arg ref="redisUtils"></constructor-arg>
+    </bean>
+    <!-- redis的string操作 -->
+    <bean id="redisString" class="com.ouver.o2o.redis.RedisUtils$strings" scope="singleton">
+        <constructor-arg ref="redisUtils"></constructor-arg>
+    </bean>
+</beans>

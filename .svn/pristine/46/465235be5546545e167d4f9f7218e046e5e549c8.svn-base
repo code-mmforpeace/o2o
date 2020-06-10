@@ -1,0 +1,14 @@
+package com.ouver.o2o.service;
+
+import com.ouver.o2o.dao.HeadLineDao;
+import com.ouver.o2o.domain.HeadLine;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+
+public interface HeadLineService {
+
+    public static final String KEY="headlinelist";
+
+    List<HeadLine> queryHeadLineList(@Param("headLineCondition") HeadLine headLineCondition);
+}

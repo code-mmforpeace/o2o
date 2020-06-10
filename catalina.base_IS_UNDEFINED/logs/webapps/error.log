@@ -1,0 +1,6 @@
+2020-04-15 10:17:08.759 [main] ERROR com.ouver.o2o.utils.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-04-15 10:17:08.872 [main] ERROR com.ouver.o2o.utils.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-04-15 10:17:08.873 [main] ERROR com.ouver.o2o.utils.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-04-15 10:17:09.260 [main] ERROR com.ouver.o2o.utils.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-04-15 10:17:09.422 [main] ERROR com.ouver.o2o.utils.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-04-15 10:17:09.423 [main] ERROR com.ouver.o2o.utils.ImageUtil - javax.imageio.IIOException: Can't read input file!

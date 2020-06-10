@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="o2o:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4224ece2-a1a1-4805-8651-246a9a07dd84" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Test/com/ouver/o2o/service/ShopCategoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/useroperate/personinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/useroperate/personinfoop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/useroperate/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/logs/webapps/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/logs/webapps/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/AreaDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/AreaDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/PersonInfoDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/PersonInfoDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/ShopCategoryDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/ShopCategoryDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/com/ouver/o2o/service/LocalAuthServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/com/ouver/o2o/service/LocalAuthServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/ouver/o2o/dao/AreaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/ouver/o2o/dao/AreaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/userMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/userMainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/frontend/shoplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/frontend/shoplist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/useroperate/changePW.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/useroperate/changePW.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/useroperate/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/useroperate/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/frontend/awardlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/frontend/awardlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/useroperate/changePW.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/useroperate/changePW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/useroperate/loginToUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/useroperate/loginToUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mapper/AreaDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mapper/AreaDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mapper/LocalAuthDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mapper/LocalAuthDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mapper/PersonInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mapper/PersonInfoDao.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/o2o$ProductImgDaoTest_testBDeleteProductImgByProductId.ic" NAME="ProductImgDaoTest.testBDeleteProductImgByProductId Coverage Results" MODIFIED="1580280293068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ouver.o2o.dao.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1379833917">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="2" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="4" />
+          <entry key="project.open.time.39" value="6" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.40" value="5" />
+          <entry key="project.open.time.41" value="4" />
+          <entry key="project.open.time.42" value="4" />
+          <entry key="project.open.time.43" value="5" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="2" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="2" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="63" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="css" value="1" />
+          <entry key="html" value="23" />
+          <entry key="java" value="132" />
+          <entry key="js" value="45" />
+          <entry key="properties" value="11" />
+          <entry key="ts" value="1" />
+          <entry key="xml" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="23" />
+          <entry key="JAVA" value="132" />
+          <entry key="JavaScript" value="45" />
+          <entry key="Properties" value="11" />
+          <entry key="TypeScript" value="1" />
+          <entry key="XML" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="176" />
+          <entry key="java" value="1966" />
+          <entry key="js" value="1028" />
+          <entry key="properties" value="64" />
+          <entry key="xml" value="170" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="176" />
+          <entry key="JAVA" value="1966" />
+          <entry key="JavaScript" value="1028" />
+          <entry key="Properties" value="64" />
+          <entry key="XML" value="170" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="o2o" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/mapper/ShopCategoryDao.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/shopadmin/ProductManagementController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="182" column="118" selection-start-line="182" selection-start-column="118" selection-end-line="182" selection-end-column="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/dao/ShopCategoryDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="yet_unknown" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>updateproduct</find>
+      <find>getproductbyid</find>
+      <find>up</find>
+      <find>status</find>
+      <find>getQueryString</find>
+      <find>refreshScroller</find>
+      <find>product-wrap</find>
+      <find>shop-desc</find>
+      <find>productName</find>
+      <find>Page</find>
+      <find>test1</find>
+      <find>maxItems</find>
+      <find>addItems</find>
+      <find>preloader</find>
+      <find>pageNum</find>
+      <find>pageIndex</find>
+      <find>queryShopCount</find>
+      <find>queryShopList</find>
+      <find>junit</find>
+      <find>removeproductcategory</find>
+      <find>com.ouver.o2o.domian</find>
+      <find>imooc.myo2o.entity</find>
+      <find>j-captcha</find>
+      <find>compactUserAwardMap4Add</find>
+      <find>currentShop</find>
+      <find>mysql</find>
+      <find>jquery</find>
+      <find>currentTarget</find>
+      <find>jquery-1.11.2.min.js</find>
+      <find>jquery-1.11.2.mi</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ouver.o2o.domian</replace>
+      <replace>com.ouver.o2o.domain</replace>
+      <replace>o</replace>
+      <replace>ouver.o2o.domain</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/resources/spring/spring-redis.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/shopadmin/ShopManagementController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/js/shop/productoperation.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/resources/spring/spring-service.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/resources/spring/spring-dao.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/AwardDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/resources/mapper/ProductDao.xml" />
+        <option value="$PROJECT_DIR$/src/java/com/ouver/o2o/utils/DESUtil.java" />
+        <option value="$PROJECT_DIR$/src/java/com/ouver/o2o/utils/MD5Util.java" />
+        <option value="$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/ShopListController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/frontend/shoplist.js" />
+        <option value="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/AreaDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/resources/mapper/AreaDao.xml" />
+        <option value="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/ShopCategoryDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/com/ouver/o2o/service/ShopCategoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/java/com/ouver/o2o/service/impl/ShopCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/java/com/ouver/o2o/dao/AreaDao.java" />
+        <option value="$PROJECT_DIR$/src/resources/mapper/PersonInfoDao.xml" />
+        <option value="$PROJECT_DIR$/src/java/com/ouver/o2o/dao/PersonInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/PersonInfoDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/useroperate/register.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/useroperate/changePW.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/useroperate/changePW.js" />
+        <option value="$PROJECT_DIR$/src/resources/mapper/LocalAuthDao.xml" />
+        <option value="$PROJECT_DIR$/src/Test/com/ouver/o2o/service/LocalAuthServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/userMainController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/frontend/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/frontend/shoplist.html" />
+        <option value="$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/userController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/useroperate/personinfo.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/useroperate/personinfoop.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/useroperate/register.js" />
+        <option value="$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/useroperate/loginToUser.js" />
+        <option value="$PROJECT_DIR$/src/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/frontend/awardlist.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="o2o Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="o2o Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1945" />
+    <option name="height" value="1105" />
+  </component>
+  <component name="ProjectId" id="1ZxwnojmgCH8pQsGEXnspoI7RBT" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring BatchSpring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Spring CloudSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring DataSpring</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring</id>
+          </State>
+          <State>
+            <id>Spring OSGiSpring</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring</id>
+          </State>
+          <State>
+            <id>Spring Web ServicesSpring</id>
+          </State>
+          <State>
+            <id>Spring WebSocketSpring</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>封装Java</id>
+          </State>
+          <State>
+            <id>继承问题Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MavenModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="shopadmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="o2o" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="o2o" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="o2o" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="o2o" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="o2o" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ouver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="o2o" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ouver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="o2o" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="o2o" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ouver" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="o2o" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590590110237" />
+    <property name="last_opened_file_path" value="F:/java/超级玛丽/JA-VA完整游戏项目开发：大咖带你玩得风生水起资料/MaliGame" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\毕业作品\o2o\src\main\webapp\css\shop" />
+      <recent name="E:\毕业作品\o2o\src\main\webapp\WEB-INF\pages\shop" />
+      <recent name="E:\毕业作品\o2o\src\main\webapp\WEB-INF\pages\shopoperation" />
+      <recent name="E:\毕业作品\o2o\src\resources1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ouver.o2o" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\毕业作品\o2o\target\o2o\WEB-INF\classes" />
+      <recent name="E:\毕业作品\o2o\src\main\webapp\WEB-INF\pages\frontend" />
+      <recent name="E:\毕业作品\o2o\src\main\webapp\js\useroperate" />
+      <recent name="E:\毕业作品\o2o\src\java\com\ouver\o2o\web\user" />
+      <recent name="E:\毕业作品\o2o\src\java\com\ouver\o2o\web\frontend" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.o2o">
+    <configuration name="AreaDaoTest.queryListArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouver.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ouver.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ouver.o2o.dao.AreaDaoTest" />
+      <option name="METHOD_NAME" value="queryListArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalAuthServiceTest.testQueryLocalAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouver.o2o.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ouver.o2o.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ouver.o2o.service.LocalAuthServiceTest" />
+      <option name="METHOD_NAME" value="testQueryLocalAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonInfoDaoTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouver.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ouver.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ouver.o2o.dao.PersonInfoDaoTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopCategoryDaoTest.testQueryShopCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouver.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ouver.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ouver.o2o.dao.ShopCategoryDaoTest" />
+      <option name="METHOD_NAME" value="testQueryShopCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopCategoryServiceTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouver.o2o.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ouver.o2o.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ouver.o2o.service.ShopCategoryServiceTest" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aliyun" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="HOST" value="39.107.50.17" />
+      <option name="PORT" value="80" />
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://39.107.50.17" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="o2o:war exploded2">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="bfc199c6-dcc9-423f-90ad-e43b49ec339f" />
+                    <id>bfc199c6-dcc9-423f-90ad-e43b49ec339f</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="bfc199c6-dcc9-423f-90ad-e43b49ec339f" />
+                    <id>bfc199c6-dcc9-423f-90ad-e43b49ec339f</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="/usr/local/tomcat/webapps" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="5a2e6c74-9f5e-46be-8069-c5316472d13e" />
+                    <id>5a2e6c74-9f5e-46be-8069-c5316472d13e</id>
+                  </TransportTarget>
+                </option>
+                <staging-path>/usr/local/tomcat/webapps</staging-path>
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="5a2e6c74-9f5e-46be-8069-c5316472d13e" />
+                    <id>5a2e6c74-9f5e-46be-8069-c5316472d13e</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="fa9d3d33-464e-4902-a675-02dcca409ac8" />
+          <host-id>fa9d3d33-464e-4902-a675-02dcca409ac8</host-id>
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62434" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="o2o:war exploded2" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="o2o" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Page/MainPage" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="E:/projectLib/upload">
+          <settings>
+            <option name="CONTEXT_PATH" value="/upload" />
+          </settings>
+        </file>
+        <artifact name="o2o:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="未命名_o2o_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49436" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="o2o:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.aliyun" />
+      <item itemvalue="Tomcat Server.o2o" />
+      <item itemvalue="JUnit.AreaDaoTest.queryListArea" />
+      <item itemvalue="JUnit.ShopCategoryDaoTest.testQueryShopCategory" />
+      <item itemvalue="JUnit.ShopCategoryServiceTest.testQuery" />
+      <item itemvalue="JUnit.PersonInfoDaoTest.testInsert" />
+      <item itemvalue="JUnit.LocalAuthServiceTest.testQueryLocalAuth" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LocalAuthServiceTest.testQueryLocalAuth" />
+        <item itemvalue="JUnit.PersonInfoDaoTest.testInsert" />
+        <item itemvalue="JUnit.ShopCategoryServiceTest.testQuery" />
+        <item itemvalue="JUnit.ShopCategoryDaoTest.testQueryShopCategory" />
+        <item itemvalue="JUnit.AreaDaoTest.queryListArea" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\DELL\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\毕业作品\o2o" />
+          <option name="myCopyRoot" value="E:\毕业作品\o2o" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\毕业作品\o2o\.idea" />
+          <option name="myCopyRoot" value="E:\毕业作品\o2o\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\毕业作品\o2o" />
+          <option name="myCopyRoot" value="E:\毕业作品\o2o" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4224ece2-a1a1-4805-8651-246a9a07dd84" name="默认" comment="" />
+      <created>1574322572398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574322572398</updated>
+      <workItem from="1574322575451" duration="1149000" />
+      <workItem from="1574392418881" duration="2958000" />
+      <workItem from="1574397281435" duration="1271000" />
+      <workItem from="1574518067116" duration="1006000" />
+      <workItem from="1574643414507" duration="11398000" />
+      <workItem from="1574732104332" duration="30558000" />
+      <workItem from="1574836962739" duration="5792000" />
+      <workItem from="1574901484931" duration="15995000" />
+      <workItem from="1574948615267" duration="5295000" />
+      <workItem from="1574989924133" duration="14421000" />
+      <workItem from="1575081961244" duration="9739000" />
+      <workItem from="1575163212138" duration="10150000" />
+      <workItem from="1575206741628" duration="1706000" />
+      <workItem from="1575248778969" duration="11025000" />
+      <workItem from="1575280541239" duration="5667000" />
+      <workItem from="1575336298969" duration="4413000" />
+      <workItem from="1575342442893" duration="12736000" />
+      <workItem from="1575511781771" duration="1191000" />
+      <workItem from="1578102513393" duration="1250000" />
+      <workItem from="1578190407142" duration="1594000" />
+      <workItem from="1578465288341" duration="3778000" />
+      <workItem from="1580091936420" duration="67319000" />
+      <workItem from="1580389923670" duration="2442000" />
+      <workItem from="1580523282672" duration="592000" />
+      <workItem from="1580783561367" duration="1205000" />
+      <workItem from="1580869108114" duration="626000" />
+      <workItem from="1580967612359" duration="9052000" />
+      <workItem from="1581042814942" duration="11024000" />
+      <workItem from="1581129257113" duration="5953000" />
+      <workItem from="1581225483500" duration="29844000" />
+      <workItem from="1581389816002" duration="6595000" />
+      <workItem from="1581937412589" duration="1666000" />
+      <workItem from="1581992080531" duration="23037000" />
+      <workItem from="1582103207554" duration="7262000" />
+      <workItem from="1582164815305" duration="6778000" />
+      <workItem from="1582251001733" duration="1563000" />
+      <workItem from="1582263724192" duration="788000" />
+      <workItem from="1582264590206" duration="1730000" />
+      <workItem from="1582334549857" duration="7666000" />
+      <workItem from="1582422597510" duration="24647000" />
+      <workItem from="1582503658244" duration="6011000" />
+      <workItem from="1582595373561" duration="11317000" />
+      <workItem from="1582688175738" duration="12712000" />
+      <workItem from="1582764026374" duration="1544000" />
+      <workItem from="1582802859121" duration="1878000" />
+      <workItem from="1582851495011" duration="4003000" />
+      <workItem from="1582940227164" duration="2044000" />
+      <workItem from="1582942310858" duration="1715000" />
+      <workItem from="1582947738313" duration="9275000" />
+      <workItem from="1583031337277" duration="1214000" />
+      <workItem from="1583112459543" duration="595000" />
+      <workItem from="1583373382731" duration="6835000" />
+      <workItem from="1583460246532" duration="1411000" />
+      <workItem from="1583544312622" duration="1214000" />
+      <workItem from="1583626686151" duration="7162000" />
+      <workItem from="1583719618913" duration="5099000" />
+      <workItem from="1583978828084" duration="2884000" />
+      <workItem from="1584061763216" duration="2195000" />
+      <workItem from="1584231964306" duration="10352000" />
+      <workItem from="1584344602148" duration="4238000" />
+      <workItem from="1584406551085" duration="5289000" />
+      <workItem from="1584499683081" duration="6809000" />
+      <workItem from="1584587173688" duration="16863000" />
+      <workItem from="1584666837863" duration="13967000" />
+      <workItem from="1584752320321" duration="29322000" />
+      <workItem from="1584881509925" duration="587000" />
+      <workItem from="1584925544657" duration="10067000" />
+      <workItem from="1585024141409" duration="1708000" />
+      <workItem from="1585102592731" duration="6594000" />
+      <workItem from="1585186300803" duration="4503000" />
+      <workItem from="1585275666781" duration="1731000" />
+      <workItem from="1585357902418" duration="1211000" />
+      <workItem from="1585445243274" duration="586000" />
+      <workItem from="1585532662343" duration="588000" />
+      <workItem from="1585620881523" duration="1195000" />
+      <workItem from="1585702920502" duration="3370000" />
+      <workItem from="1585707608241" duration="743000" />
+      <workItem from="1585718014990" duration="3311000" />
+      <workItem from="1585788680174" duration="605000" />
+      <workItem from="1585794227355" duration="1505000" />
+      <workItem from="1585838293888" duration="77000" />
+      <workItem from="1585879657208" duration="863000" />
+      <workItem from="1585889214509" duration="218000" />
+      <workItem from="1585889469146" duration="137000" />
+      <workItem from="1585889815405" duration="4681000" />
+      <workItem from="1585959436887" duration="3089000" />
+      <workItem from="1586052008255" duration="4331000" />
+      <workItem from="1586137569920" duration="1188000" />
+      <workItem from="1586220235285" duration="591000" />
+      <workItem from="1586395246199" duration="6097000" />
+      <workItem from="1586570401858" duration="1829000" />
+      <workItem from="1586829333927" duration="3351000" />
+      <workItem from="1586912382332" duration="8198000" />
+      <workItem from="1587002570051" duration="687000" />
+      <workItem from="1587088170183" duration="636000" />
+      <workItem from="1587346925506" duration="4702000" />
+      <workItem from="1587607836786" duration="2495000" />
+      <workItem from="1587693312530" duration="2483000" />
+      <workItem from="1587864570862" duration="1122000" />
+      <workItem from="1587970265424" duration="4915000" />
+      <workItem from="1588034888003" duration="591000" />
+      <workItem from="1588387163365" duration="593000" />
+      <workItem from="1588469036870" duration="15029000" />
+      <workItem from="1588555771192" duration="3942000" />
+      <workItem from="1588641881079" duration="1242000" />
+      <workItem from="1588727130917" duration="2492000" />
+      <workItem from="1588750892267" duration="782000" />
+      <workItem from="1588816218107" duration="5546000" />
+      <workItem from="1588900438269" duration="4276000" />
+      <workItem from="1589026504469" duration="601000" />
+      <workItem from="1589079022768" duration="1911000" />
+      <workItem from="1589165338955" duration="803000" />
+      <workItem from="1589182265958" duration="1972000" />
+      <workItem from="1589246521710" duration="4984000" />
+      <workItem from="1589360419712" duration="593000" />
+      <workItem from="1589423151806" duration="3018000" />
+      <workItem from="1589509655429" duration="1196000" />
+      <workItem from="1589590137673" duration="6962000" />
+      <workItem from="1589615118848" duration="1009000" />
+      <workItem from="1589698828865" duration="594000" />
+      <workItem from="1589768170490" duration="3362000" />
+      <workItem from="1589848509040" duration="2193000" />
+      <workItem from="1589937349068" duration="592000" />
+      <workItem from="1590025418725" duration="2549000" />
+      <workItem from="1590114438355" duration="2581000" />
+      <workItem from="1590198605510" duration="2219000" />
+      <workItem from="1590319953252" duration="594000" />
+      <workItem from="1590373373426" duration="592000" />
+      <workItem from="1590459263248" duration="1244000" />
+      <workItem from="1590544912141" duration="117000" />
+      <workItem from="1590567813610" duration="698000" />
+      <workItem from="1590590208189" duration="214000" />
+      <workItem from="1590665791405" duration="590000" />
+      <workItem from="1590714080739" duration="1220000" />
+      <workItem from="1590844554960" duration="590000" />
+      <workItem from="1590895262745" duration="593000" />
+      <workItem from="1590979169163" duration="594000" />
+      <workItem from="1591185682408" duration="598000" />
+      <workItem from="1591233268711" duration="591000" />
+      <workItem from="1591403451233" duration="591000" />
+      <workItem from="1591488356454" duration="589000" />
+      <workItem from="1591514355811" duration="1147000" />
+      <workItem from="1591517013637" duration="700000" />
+      <workItem from="1591580987179" duration="592000" />
+      <workItem from="1591663435367" duration="593000" />
+      <workItem from="1591664729263" duration="592000" />
+      <workItem from="1591748759341" duration="2069000" />
+    </task>
+    <task id="LOCAL-00001" summary="2.17毕设作品第一次提交svn管理">
+      <created>1581938272459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581938272459</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2.18毕设作品第二次提交svn管理">
+      <created>1581996032226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581996032226</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2.18毕设作品第二次提交svn管理">
+      <created>1582001902504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582001902504</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2.18毕设作品第二次提交svn管理">
+      <created>1582003374704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582003374704</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2.18毕设作品第二次提交svn管理">
+      <created>1582005903457</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582005903457</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2.18毕设作品第二次提交svn管理">
+      <created>1582104659674</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582104659674</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2.23毕设作品第⑤次提交svn管理">
+      <created>1582462031438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582462031438</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2.26毕设作品第12次提交svn管理&#10;系统整体完成">
+      <created>1582721380505</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582721380505</updated>
+    </task>
+    <task id="LOCAL-00009" summary="3.21毕设作品第12次提交svn管理&#10;系统提升完成">
+      <created>1584755004713</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584755004713</updated>
+    </task>
+    <task id="LOCAL-00010" summary="默认">
+      <created>1585794550559</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585794550559</updated>
+    </task>
+    <task id="LOCAL-00011" summary="默认">
+      <created>1586916353584</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586916353584</updated>
+    </task>
+    <task id="LOCAL-00012" summary="默认">
+      <created>1587349910166</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587349910166</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PersonInfoDaoTest_testInsert - 2020.05.03 at 09h 48m 08s.xml">
+      <configuration name="PersonInfoDaoTest.testInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonInfoDaoTest_testInsert - 2020.05.03 at 09h 48m 32s.xml">
+      <configuration name="PersonInfoDaoTest.testInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonInfoDaoTest_testInsert - 2020.05.03 at 09h 49m 00s.xml">
+      <configuration name="PersonInfoDaoTest.testInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonInfoDaoTest_testInsert - 2020.05.03 at 09h 49m 35s.xml">
+      <configuration name="PersonInfoDaoTest.testInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonInfoDaoTest_testInsert - 2020.05.03 at 09h 55m 20s.xml">
+      <configuration name="PersonInfoDaoTest.testInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocalAuthServiceTest_testQueryLocalAuth - 2020.05.03 at 15h 08m 05s.xml">
+      <configuration name="LocalAuthServiceTest.testQueryLocalAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocalAuthServiceTest_testQueryLocalAuth - 2020.05.03 at 15h 08m 21s.xml">
+      <configuration name="LocalAuthServiceTest.testQueryLocalAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocalAuthServiceTest_testQueryLocalAuth - 2020.05.03 at 15h 10m 21s.xml">
+      <configuration name="LocalAuthServiceTest.testQueryLocalAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocalAuthServiceTest_testQueryLocalAuth - 2020.05.03 at 15h 11m 02s.xml">
+      <configuration name="LocalAuthServiceTest.testQueryLocalAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocalAuthServiceTest_testQueryLocalAuth - 2020.05.03 at 15h 25m 53s.xml">
+      <configuration name="LocalAuthServiceTest.testQueryLocalAuth" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="137135000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.09879639" />
+      <window_info id="Structure" order="1" sideWeight="0.5014663" side_tool="true" weight="0.22050938" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5014663" side_tool="true" weight="0.22050938" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="设计器" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5014663" side_tool="true" weight="0.22050938" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39896908" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32991204" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32908705" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32991204" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32991204" />
+      <window_info anchor="bottom" id="调试" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="调色板" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" weight="0.288874" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="leetcode" order="9" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.17毕设作品第一次提交svn管理" />
+    <MESSAGE value="2.18毕设作品第二次提交svn管理" />
+    <MESSAGE value="2.23毕设作品第⑤次提交svn管理" />
+    <MESSAGE value="2.26毕设作品第12次提交svn管理&#10;系统整体完成" />
+    <MESSAGE value="3.21毕设作品第12次提交svn管理&#10;系统提升完成" />
+    <MESSAGE value="默认" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Project_Structure" timestamp="1585889494457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585889494457" />
+    <state x="391" y="5" key="CommitChangelistDialog2" timestamp="1585794536043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585794536043" />
+    <state width="1024" height="293" key="GridCell.Tab.0.bottom" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.0.center" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.0.left" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.0.right" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.1.bottom" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.1.center" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.1.left" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.1.right" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.2.bottom" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.2.center" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.2.left" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.2.right" timestamp="1585889605234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1585889605234" />
+    <state width="1024" height="293" key="GridCell.Tab.3.bottom" timestamp="1585889180415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585889180415" />
+    <state width="1024" height="293" key="GridCell.Tab.3.center" timestamp="1585889180415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1585889180415" />
+    <state width="1024" height="293" key="GridCell.Tab.3.left" timestamp="1585889180415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1585889180415" />
+    <state width="1024" height="293" key="GridCell.Tab.3.right" timestamp="1585889180415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="293" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1585889180415" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1585889551743">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585889551743" />
+    <state x="449" y="94" key="spring file set editor" timestamp="1585889488443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="94" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1585889488443" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/MyShopPointController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/MyShopPointController.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/MyShopPointController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/useroperate/login.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/useroperate/loginToUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/useroperate/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="160" column="64" selection-start-line="160" selection-start-column="64" selection-end-line="160" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/utils/HttpServletRequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/frontend/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/frontend/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1091">
+          <caret line="207" column="34" selection-start-line="207" selection-start-column="34" selection-end-line="207" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/enums/ShopAuthMapStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/enums/ProductStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/enums/ProductCategoryStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/enums/PersonInfoStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/enums/LocalAuthStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/enums/AwardStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/user/MyAwardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1338">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/service/impl/AwardServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/domain/ImageHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/utils/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/interception/ShopLoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/ProductDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/mapper/AreaDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/mapper/AwardDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/mapper/HeadLine.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/mapper/LocalAuthDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/mapper/PersonInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/mapper/ProductCategoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/mapper/ProductDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/common/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/common/commonutil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/common/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="8336" selection-start-line="2" selection-start-column="8323" selection-end-line="2" selection-end-column="8336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="5190" column="13" selection-start-line="5190" selection-start-column="13" selection-end-line="5190" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/com/ouver/o2o/dao/AwardDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/frontend/awardlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/frontend/awardlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2242">
+          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/utils/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/utils/DESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/domain/ShopCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/service/impl/ShopCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/MainPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/ProductDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/ShopAwardByUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/ShopDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-879">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/frontend/ShopListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1677">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/shopadmin/ProductCategoryManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/mapper/ShopCategoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/dao/ShopCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="102" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ouver/o2o/web/shopadmin/ProductManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="182" column="118" selection-start-line="182" selection-start-column="118" selection-end-line="182" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>o2o:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>libs (6)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>o2o</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

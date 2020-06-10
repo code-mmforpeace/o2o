@@ -1,0 +1,17 @@
+package com.ouver.o2o.dao;
+
+import com.ouver.o2o.domain.HeadLine;
+import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface HeadLineDao {
+
+    /**
+     * 头条轮播图
+     * @return
+     */
+    List<HeadLine> queryHeadLineList(@Param("headLineCondition") HeadLine headLineCondition);
+}

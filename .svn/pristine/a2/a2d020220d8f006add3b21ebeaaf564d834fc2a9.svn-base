@@ -1,0 +1,30 @@
+$(function () {
+    getList();
+    function getList(e) {
+        $.ajax(
+            {
+                url:"/award/awardlist",
+                type:"get",
+                dataType:"json",
+                success:function (data) {
+                    handleList(data.awardList);
+                }
+            }
+        );
+    }
+    function handleList(data) {
+        var html='';
+        data.map(function (item, index) {
+            html += '<div class="row row-shop"><div class="col-40">'+ item.awardName +'</div><div class="col-20">'+ item.point +'</div><div class="col-15" >'+ goShop(item.enableStatus, item.shopId) +'</div><div class="col-10">'+ goShop(item.enableStatus, item.shopId) +'</div></div>';
+
+        });
+        $('.award-wrap').html(html);
+    }
+    function goShop(status, id) {
+        if (status != 0 && status != -1) {
+            return '<a href="/shopAdmin/shopManagement?shopId='+ id +'">进入</a>';
+        } else {
+            return '';
+        }
+    }
+});

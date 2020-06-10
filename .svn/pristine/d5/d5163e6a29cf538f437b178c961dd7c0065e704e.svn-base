@@ -1,0 +1,4 @@
+jdbc.driver = com.mysql.jdbc.Driver
+jdbc.url = jdbc:mysql://62.234.59.58:3306/o2o?useUnicode=true&characterEncoding=utf-8
+jdbc.username = WnplV/ietfQ=
+jdbc.password = u1+5PQQS+58fJAfVsP+M2w==

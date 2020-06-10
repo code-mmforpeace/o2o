@@ -1,0 +1,133 @@
+package com.ouver.o2o.web.shopadmin;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.ouver.o2o.domain.Shop;
+import com.ouver.o2o.domain.ShopAuthMap;
+import com.ouver.o2o.dto.ShopAuthMapExecution;
+import com.ouver.o2o.enums.ShopAuthMapStateEnum;
+import com.ouver.o2o.service.ShopAuthMapService;
+import com.ouver.o2o.utils.CodeUtil;
+import com.ouver.o2o.utils.HttpServletRequestUtil;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.Map;
+
+@Controller
+@RequestMapping("/shopadmin")
+public class ShopAuthMapController {
+
+    @Autowired
+    private ShopAuthMapService shopAuthMapService;
+
+    @RequestMapping(value = "/getshopauthmaplist",method = RequestMethod.GET)
+    @ResponseBody
+    public Map<String,Object> getShopAuthMapList(HttpServletRequest request){
+        Map<String,Object> modelMap = new HashMap<>();
+        //取出分页的信息
+        int pageIndex = HttpServletRequestUtil.getInt(request, "pageIndex");
+        int pageSize = HttpServletRequestUtil.getInt(request, "pageSize");
+        //从session取出店铺信息
+        Shop currentShop = (Shop) request.getSession().getAttribute("currentShop");
+        //空值判断
+        if((pageIndex > -1) && (pageSize > -1) && (currentShop != null) && (currentShop.getShopId() > -1)){
+            ShopAuthMapExecution shopAuthMapExecution = shopAuthMapService.listShopAuthMapByShopId(currentShop.getShopId(), pageIndex, pageSize);
+            modelMap.put("shopAuthMapList",shopAuthMapExecution.getShopAuthMapList());
+            modelMap.put("count",shopAuthMapExecution.getCount());
+            modelMap.put("success",true);
+        }else {
+            modelMap.put("success",false);
+            modelMap.put("errMsg","empty data cant open");
+        }
+        return modelMap;
+    }
+
+    @RequestMapping(value = "/getshopauthmapbyid",method = RequestMethod.GET)
+    @ResponseBody
+    private Map<String,Object> getShopAuthMapById(@RequestParam Long shopAuthId){
+        Map<String,Object> modelMap = new HashMap<>();
+        //空值判断
+        if(shopAuthId != null && shopAuthId > -1){
+            ShopAuthMap shopAuthMap = shopAuthMapService.getShopAuthMapById(shopAuthId);
+            modelMap.put("shopAuthMap",shopAuthMap);
+            modelMap.put("success",true);
+        }else {
+            modelMap.put("success",false);
+            modelMap.put("errMsg","empty id");
+        }
+        return modelMap;
+    }
+
+    @RequestMapping("/modifyshopauthmap")
+    @ResponseBody
+    private Map<String,Object> modifyShopAuthMap(String shopAuthMapStr,HttpServletRequest request){
+        Map<String,Object> modelMap = new HashMap<>();
+        //验证码判断
+        //如果是编辑的时候的验证码就接着往下进行，如果是删除的就跳过验证码
+        Boolean statusChange = HttpServletRequestUtil.getBoolean(request, "statusChange");
+        Shop currentShop = (Shop) request.getSession().getAttribute("currentShop");
+        //判断
+        if(!statusChange && !CodeUtil.checkVerifyCode(request)){
+            modelMap.put("success",false);
+            modelMap.put("errMsg","输入了错误的验证码！");
+            return modelMap;
+        }
+        ObjectMapper objectMapper = new ObjectMapper();
+        ShopAuthMap shopAuthMap = null;
+        try{
+            //将前台传入的字符串转换成shopAuthMap实例
+            shopAuthMap = objectMapper.readValue(shopAuthMapStr, ShopAuthMap.class);
+        }catch (Exception e){
+            modelMap.put("success",false);
+            modelMap.put("errMsg",e.toString());
+            return modelMap;
+        }
+        //空值判断
+        if(shopAuthMap != null && shopAuthMap.getShopAuthId() != null){
+            try{
+                if(!checkPermission(shopAuthMap.getShopAuthId())){
+                    modelMap.put("success",false);
+                    modelMap.put("errMsg","没有权限修改");
+                    return modelMap;
+                }
+                shopAuthMap.setShopId(currentShop.getShopId());
+                ShopAuthMapExecution shopAuthMapExecution = shopAuthMapService.modifyShopAuthMap(shopAuthMap);
+                if(shopAuthMapExecution.getState() == ShopAuthMapStateEnum.SUCCESS.getState()){
+                    modelMap.put("success",true);
+                }else {
+                    modelMap.put("success",false);
+                    modelMap.put("errMsg",shopAuthMapExecution.getStateInfo());
+                }
+            }catch (RuntimeException e){
+                modelMap.put("success",false);
+                modelMap.put("errMsg",e.toString());
+                return modelMap;
+            }
+        }else {
+            modelMap.put("success",false);
+            modelMap.put("errMsg","请输入要修改的权限信息");
+        }
+        return modelMap;
+    }
+
+    /**
+     * 检查当前是不是店家
+     * @param shopAuthId
+     * @return
+     */
+    private boolean checkPermission(Long shopAuthId) {
+        ShopAuthMap shopAuthMapById = shopAuthMapService.getShopAuthMapById(shopAuthId);
+        if(shopAuthMapById.getTitleFlag() == 0){
+            //店家本身，不能操作了
+            return false;
+        }else {
+            return true;
+        }
+    }
+}
