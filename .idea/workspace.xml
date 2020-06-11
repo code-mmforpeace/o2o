@@ -92,9 +92,9 @@
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="63" />
+          <entry key="project.opened" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -309,7 +309,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1945" />
@@ -1041,6 +1041,7 @@
       <workItem from="1591663435367" duration="593000" />
       <workItem from="1591664729263" duration="592000" />
       <workItem from="1591748759341" duration="2069000" />
+      <workItem from="1591837244077" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="2.17毕设作品第一次提交svn管理">
       <created>1581938272459</created>
@@ -1162,7 +1163,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137135000" />
+    <option name="totallyTimeSpent" value="137724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1174,9 +1175,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-5" y="-5" width="1556" height="884" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.09879639" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.10013441" />
       <window_info id="Structure" order="1" sideWeight="0.5014663" side_tool="true" weight="0.22050938" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
